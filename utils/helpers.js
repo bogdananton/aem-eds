@@ -3,7 +3,7 @@
 // that the all blocks are loaded -> cannot use a single observer to
 // observe all blocks, so use functions here in blocks instead
 // eslint-disable-next-line max-len
-import createTag from "./tag";
+import createTag from "./tag.js";
 
 const requireRevealWrapper = ['slide-reveal-up', 'slide-reveal-up-slow'];
 
